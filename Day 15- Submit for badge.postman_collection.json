@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "2d9539f4-a2fa-4893-949c-743045ebd7b0",
+		"name": "Day 15: Submit for badge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7254700"
+	},
+	"item": [
+		{
+			"name": "submit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/submit",
+				"description": "Find the `secret` environment. Select it as the active environment, and **Send** this request for more instructions."
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
